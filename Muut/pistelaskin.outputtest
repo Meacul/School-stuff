@@ -1,0 +1,77 @@
+@@OPTIONS --showcorrect --showtested --showdiff --ignorescandinavian --timeout=10
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@20
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@10
+Syötä tenttipisteet: @@100
+Lopulliset kokonaispisteet: 100
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@0
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@0
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@0
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@0
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@0
+Syötä tenttipisteet: @@0
+Lopulliset kokonaispisteet: 0
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@0
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@20
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@0
+Syötä tenttipisteet: @@50
+Lopulliset kokonaispisteet: 51
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@0
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@20
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@8
+Syötä tenttipisteet: @@50
+Lopulliset kokonaispisteet: 53
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@0
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@20
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@0
+Syötä tenttipisteet: @@50
+Lopulliset kokonaispisteet: 52
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@12
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@20
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@15
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@8
+Syötä tenttipisteet: @@76
+Lopulliset kokonaispisteet: 80
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@15
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@6
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@4
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@1
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@0
+Syötä tenttipisteet: @@47
+Lopulliset kokonaispisteet: 0
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@k
+Syötä arvostelijan antamat harjoitustyön 01 pisteet: @@15
+Syötä arvostelijan antamat harjoitustyön 02 pisteet: @@17
+Syötä arvostelijan antamat harjoitustyön 03 pisteet: @@7
+Syötä arvostelijan antamat harjoitustyön 04 pisteet: @@20
+Syötä viikkoharjoitusläsnäolojen lukumäärä: @@8
+Syötä tenttipisteet: @@50
+Lopulliset kokonaispisteet: 50
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@x
+Virheellinen syöte, aloita alusta!
+
+Haluatko laskea lisää kokonaispisteitä? (k/e) @@e

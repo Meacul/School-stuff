@@ -1,0 +1,27 @@
+@@OPTIONS --showcorrect --showtested --showdiff --timeout=8
+opiskelijanumero [lopetus: 0]: @@123456
+nimi: @@Tuija Teekkari
+tunnusluvut: @@7 12 0 2 5 23 11 1
+lisatty opiskelija:  7 12  0  2  5 23 11  1  123456 Tuija Teekkari
+
+opiskelijanumero [lopetus: 0]: @@133446
+nimi: @@Teemu Teekkari
+tunnusluvut: @@9 4 1 2 7 26 9 3
+lisatty opiskelija:  9  4  1  2  7 26  9  3  133446 Teemu Teekkari
+** kopioepaily (6):  7 12  0  2  5 23 11  1  123456 Tuija Teekkari
+@#epailyja kaikkiaan:  1
+
+opiskelijanumero [lopetus: 0]: @@122334
+nimi: @@Reijo Rehellinen
+tunnusluvut: @@4 5 8 4 1 2 6 7
+lisatty opiskelija:  4  5  8  4  1  2  6  7  122334 Reijo Rehellinen
+
+opiskelijanumero [lopetus: 0]: @@112233
+nimi: @@Kimmo Kopioija
+tunnusluvut: @@7 12 0 2 5 23 11 1
+lisatty opiskelija:  7 12  0  2  5 23 11  1  112233 Kimmo Kopioija
+** kopioepaily (8):  7 12  0  2  5 23 11  1  123456 Tuija Teekkari
+** kopioepaily (6):  9  4  1  2  7 26  9  3  133446 Teemu Teekkari
+@#epailyja kaikkiaan:  2
+
+opiskelijanumero [lopetus: 0]: @@0

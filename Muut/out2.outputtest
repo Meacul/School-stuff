@@ -1,0 +1,39 @@
+@@OPTIONS --showcorrect --showtested --showdiff --timeout=8
+opiskelijanumero [lopetus: 0]: @@012345
+nimi: @@Kaija Koo
+tunnusluvut: @@8 16 1 5 2 26 15 6
+lisatty opiskelija:  8 16  1  5  2 26 15  6  012345 Kaija Koo
+
+opiskelijanumero [lopetus: 0]: @@453210
+nimi: @@Darn Katz
+tunnusluvut: @@7 8 9 1 3 5 4 7
+lisatty opiskelija:  7  8  9  1  3  5  4  7  453210 Darn Katz
+
+opiskelijanumero [lopetus: 0]: @@330222
+nimi: @@Hurdur Aziz
+tunnusluvut: @@6 15 1 4 1 24 13 7
+lisatty opiskelija:  6 15  1  4  1 24 13  7  330222 Hurdur Aziz
+** kopioepaily (8):  8 16  1  5  2 26 15  6  012345 Kaija Koo
+
+opiskelijanumero [lopetus: 0]: @@112233
+nimi: @@Kimmo Kopioija
+tunnusluvut: @@7 12 0 2 5 23 11 1
+lisatty opiskelija:  7  8  9  1  3  5  4  7  112233 Kimmo Kopioija
+** kopioepaily (8):  7  8  9  1  3  5  4  7  453210 Darn Katz
+
+opiskelijanumero [lopetus: 0]: @@987654
+nimi: @@Rape Mano
+tunnusluvut: @@0 0 0 0 0 0 0 0
+lisatty opiskelija:  0  0  0  0  0  0  0  0  987654 Rape Mano
+
+opiskelijanumero [lopetus: 0]: @@654321
+nimi: @@Rane Rekkamies
+tunnusluvut: @@9 9 9 9 9 9 9 9
+lisatty opiskelija:  9  9  9  9  9  9  9  9  654321 Rane Rekkamies
+
+opiskelijanumero [lopetus: 0]: @@567890
+nimi: @@Achmed theDeadTerrorist
+tunnusluvut: @@6 15 1 4 1 24 13 7
+lisatty opiskelija:  6 15  1  4  1 24 13  7  567890 Achmed theDeadTerrorist
+** kopioepaily (8):  8 16  1  5  2 26 15  6  012345 Kaija Koo
+** kopioepaily (8):  6 15  1  4  1 24 13  7  330222 Hurdur Aziz

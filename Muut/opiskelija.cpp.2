@@ -1,0 +1,104 @@
+// Tama ohjelma tutkii syotettyjen tulosten yhtenaisyyksia.
+#include <iostream>
+#include <sstream>
+#include <cmath>
+#include <string>
+
+#define TUNNUSLUKUJA      8
+#define MAX_OPISKELIJOITA 100
+using namespace std;
+
+struct Opiskelija
+{
+	int opiskelijanumero;
+	int tunnusluvut[TUNNUSLUKUJA];
+	std::string nimi;
+};
+
+static std::ostream &operator<<(std::ostream &outStream, const Opiskelija &opiskelija ) {
+	for (int tunnuslukuindeksi = 0; tunnuslukuindeksi < TUNNUSLUKUJA; tunnuslukuindeksi++) {
+		outStream << opiskelija.tunnusluvut[tunnuslukuindeksi] << " ";
+	}
+	
+   	outStream << opiskelija.opiskelijanumero << " " << opiskelija.nimi;
+	
+	return outStream;
+}
+
+bool lueOpiskelija(Opiskelija *opiskelija) // palauttaa true jos halutaan lopettaa lukeminen
+{
+	cout << "opiskelijanumero [lopetus: 0]:";
+	cin >> opiskelija->opiskelijanumero;
+	
+	if (opiskelija->opiskelijanumero == 0) {
+		return true;
+	}
+	
+	cout << "nimi:";
+	cin >> opiskelija->nimi;
+	
+	cout << "tunnusluvut:";
+	string tunnusluvutstring;
+	getline(cin, tunnusluvutstring); // ensimmainen luku lukee kai edellisen entterin painalluksen,
+	getline(cin, tunnusluvutstring); // niin pitaa lukea kahdesti... varmaan on parempikin tapa
+	
+	stringstream ss(tunnusluvutstring);
+	for (int tunnuslukuindeksi = 0; tunnuslukuindeksi < TUNNUSLUKUJA; tunnuslukuindeksi++) {
+   		ss >> opiskelija->tunnusluvut[tunnuslukuindeksi];
+   	}
+   	
+   	std::cout << "lisatty opiskelija:" << *opiskelija << endl;
+   	
+   	return false;
+}
+
+int abs(int a) {
+	return (a >= 0) ? a : -a;
+}
+
+//Parametrit ovat referensseja, se nopeuttaa koodia koska
+//Opiskelija-struckteista ei tarvitse tehda kopiota muistissa. Lisaksi
+//ne ovat const koska taman funktion ei ole tarkoitus muuttaa niiden arvoja,
+//vaan ainoastaan lukea niita
+
+bool vertaa(const Opiskelija &opiskelija1, const Opiskelija &opiskelija2)
+{
+	int samanlaistenLaskuri = 0;
+	for (int tunnuslukuIndeksi = 0; tunnuslukuIndeksi < TUNNUSLUKUJA; tunnuslukuIndeksi++ ) {
+		if (abs(opiskelija1.tunnusluvut[tunnuslukuIndeksi] - opiskelija2.tunnusluvut[tunnuslukuIndeksi]) < 2) {
+			samanlaistenLaskuri++;
+		}
+	}
+	
+	return (samanlaistenLaskuri > 6); // palauttaa true jos laskuri on 7 tai enemman
+}
+
+int main (void)
+{
+	Opiskelija opiskelijat[MAX_OPISKELIJOITA];
+	int opiskelijaIndeksi = 0;
+
+	while (true)
+	{
+		if ( opiskelijaIndeksi+1 == MAX_OPISKELIJOITA)
+		{
+			cout << "Liian monta opiskelijaa!" << endl;
+			return 0;
+		}
+		
+		if (lueOpiskelija(opiskelijat + opiskelijaIndeksi)) {
+			cout << "Lopetetaan ohjelma" << endl;
+			break; // lopettaa silmukan while (true)
+		}
+		
+		for (int i = 0; i < opiskelijaIndeksi-1; i++) //Verrataan uusinta opiskelijaa aiempiin
+		{
+			if (vertaa(opiskelijat[i], opiskelijat[opiskelijaIndeksi])) {
+				cout << "Opiskelijat " << i << " ja " << opiskelijaIndeksi << " ovat samankaltaiset!" << endl;
+			}
+		}
+		
+		opiskelijaIndeksi++;
+	}
+	return 0;
+}

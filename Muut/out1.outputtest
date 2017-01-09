@@ -1,0 +1,27 @@
+@@OPTIONS --showcorrect --showtested --showdiff --timeout=8
+opiskelijanumero [lopetus: 0]: @@010101
+nimi: @@Jalle Kalle
+tunnusluvut: @@4 13 1 3 6 28 8 0
+lisatty opiskelija:  4 13  1  3  6 28  8  0  010101 Jalle Kalle
+
+opiskelijanumero [lopetus: 0]: @@101010
+nimi: @@Limo Timo
+tunnusluvut: @@9 4 1 2 7 26 9 2
+lisatty opiskelija:  9  4  1  2  7 26  9  2  101010 Limo Timo
+** kopioepaily (6):  4 13  1  3  6 28  8  0  010101 Jalle Kalle
+@#epailyja kaikkiaan:  1
+
+opiskelijanumero [lopetus: 0]: @@122334
+nimi: @@Reijo Rehellinen
+tunnusluvut: @@8 7 6 5 4 3 2 1
+lisatty opiskelija:  8  7  6  5  4  3  2  1  123456 Rape Repa
+
+opiskelijanumero [lopetus: 0]: @@112233
+nimi: @@Kimmo Kopioija
+tunnusluvut: @@7 12 0 2 5 23 11 1
+lisatty opiskelija:  7 12  0  2  5 23 11  1  112233 Kimmo Kopioija
+** kopioepaily (8):  7 12  0  2  5 23 11  1  123456 Tuija Teekkari
+** kopioepaily (6):  9  4  1  2  7 26  9  3  133446 Teemu Teekkari
+@#epailyja kaikkiaan:  2
+
+opiskelijanumero [lopetus: 0]: @@0

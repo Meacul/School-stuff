@@ -1,0 +1,7 @@
+@@OPTIONS --showcorrect --showtested --showdiff --timeout=3
+syota pakettien lukumaara:  @@50
+syota paketin leveys (cm):  @@35.2
+syota paketin korkeus (cm): @@45.0
+syota paketin syvyys (cm):  @@50.7
+syota paketin massa (kg):   @@25.3
+kokonaisrahtimaksu:         5078.92 euroa
